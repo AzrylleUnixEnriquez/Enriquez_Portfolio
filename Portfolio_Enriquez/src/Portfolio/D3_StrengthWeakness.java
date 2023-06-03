@@ -49,7 +49,7 @@ public class D3_StrengthWeakness {
 		frame.getContentPane().setLayout(null);
 		frame.setLocationRelativeTo(null);
 				
-		//Instantiation
+		//Instantiation of the subclass that inherited all the variables and methods of the subclasses and parent class
 		Info4_SH info = new Info4_SH();
 		JLabel lblStrengths = new JLabel(info.Strengths);
 		lblStrengths.setHorizontalAlignment(SwingConstants.LEFT);
@@ -79,7 +79,7 @@ public class D3_StrengthWeakness {
 		lblWeakness.setBounds(425, 68, 280, 29);
 		frame.getContentPane().add(lblWeakness);
 		
-		//A JLable that is a Back Button
+		//Back Button
 		JLabel lblBackButton = new JLabel(info.Backbutton());
 		lblBackButton.setHorizontalAlignment(SwingConstants.CENTER);
 		lblBackButton.setForeground(new Color(0, 0, 0));
