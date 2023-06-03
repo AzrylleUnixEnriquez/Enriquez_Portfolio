@@ -49,7 +49,7 @@ public class D3_StrengthWeakness {
 		frame.getContentPane().setLayout(null);
 		frame.setLocationRelativeTo(null);
 				
-		
+		//Instantiation
 		Info4_SH info = new Info4_SH();
 		JLabel lblStrengths = new JLabel(info.Strengths);
 		lblStrengths.setHorizontalAlignment(SwingConstants.LEFT);
@@ -57,7 +57,7 @@ public class D3_StrengthWeakness {
 		lblStrengths.setFont(new Font("Tahoma", Font.PLAIN, 20));
 		lblStrengths.setBounds(28, 117, 267, 321);
 		frame.getContentPane().add(lblStrengths);
-		
+		//Display inherited variables
 		JLabel lblWeaknesses = new JLabel(info.Weaknesses);
 		lblWeaknesses.setHorizontalAlignment(SwingConstants.LEFT);
 		lblWeaknesses.setForeground(new Color(0, 0, 0));
