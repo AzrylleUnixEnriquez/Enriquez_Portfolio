@@ -51,7 +51,7 @@ public class D3_Hobbies {
 		frame.getContentPane().setLayout(null);
 		//Instantiation of the subclass that inherited all the variables and methods of the subclasses and parent class
 		Info4_SH info = new Info4_SH();
-		
+		//Display inherited variables
 		JLabel lblHobbies = new JLabel(info.Hobbies);
 		lblHobbies.setHorizontalAlignment(SwingConstants.CENTER);
 		lblHobbies.setForeground(Color.BLACK);
@@ -80,7 +80,7 @@ public class D3_Hobbies {
 		lblWatching.setBounds(235, 510, 280, 29);
 		frame.getContentPane().add(lblWatching);
 		
-	    //A JLable that is a Back Button
+	    	//Back Button
 		JLabel lblBackButton = new JLabel(info.Backbutton());
 		lblBackButton.setHorizontalAlignment(SwingConstants.CENTER);
 		lblBackButton.setForeground(new Color(0, 0, 0));
@@ -103,7 +103,7 @@ public class D3_Hobbies {
 			
 		});
 		
-		
+		//display background
 		JLabel lblBG = new JLabel("");
 		lblBG.setIcon(new ImageIcon(D3_Hobbies.class.getResource("/Image/7.png")));
 		lblBG.setBounds(0, 0, 784, 574);
