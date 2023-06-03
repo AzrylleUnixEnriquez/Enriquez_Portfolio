@@ -55,7 +55,7 @@ public class D1_Front {
 		Info4_SH info = new Info4_SH();
 		
 		//creates a JLabel
-		//Display inherited variables
+		//Display inherited variable
 		JLabel lblPortfolioButton = new JLabel(info.Portfolio);
 		lblPortfolioButton.setBounds(633, 506, 130, 38);
 		lblPortfolioButton.setForeground(new Color(0, 0, 0));
