@@ -53,7 +53,7 @@ public class D2_MainFrame {
 		//Instantiation of the subclass that inherited all the variables and methods of the subclasses and parent class
 		Info4_SH info = new Info4_SH();
 		//Creates a Jlabel 
-		//Display inherited variables and makes the Jlabel buttons
+		//Display inherited variable and makes the Jlabel a button
 		JLabel lblBasicInfoButton = new JLabel(info.BasicInfo);
 		lblBasicInfoButton.setHorizontalAlignment(SwingConstants.CENTER);
 		lblBasicInfoButton.setForeground(new Color(0, 0, 0));
@@ -75,7 +75,7 @@ public class D2_MainFrame {
 			}
 			
 		});
-	
+		//Display inherited variable
 		JLabel lblEduAchieveButton = new JLabel(info.EducationAchieve);
 		lblEduAchieveButton.setHorizontalAlignment(SwingConstants.CENTER);
 		lblEduAchieveButton.setForeground(new Color(0, 0, 0));
@@ -97,7 +97,7 @@ public class D2_MainFrame {
 				}	
 						
 			});
-		
+		//Display inherited variable
 		JLabel lblSkills = new JLabel(info.Skills);
 		lblSkills.setHorizontalAlignment(SwingConstants.CENTER);
 		lblSkills.setForeground(new Color(0, 0, 0));
@@ -119,7 +119,7 @@ public class D2_MainFrame {
 				}	
 						
 			});
-		
+		//Display inherited variable
 		JLabel StrengthWeakness = new JLabel(info.SW);
 		StrengthWeakness.setHorizontalAlignment(SwingConstants.CENTER);
 		StrengthWeakness.setForeground(new Color(0, 0, 0));
@@ -141,7 +141,7 @@ public class D2_MainFrame {
 				}	
 						
 			});
-		
+		//Display inherited variable
 		JLabel lblHobbies = new JLabel(info.Hobbies);
 		lblHobbies.setHorizontalAlignment(SwingConstants.CENTER);
 		lblHobbies.setForeground(new Color(0, 0, 0));
@@ -186,7 +186,7 @@ public class D2_MainFrame {
 			}	
 			
 		});
-		
+		//Display background
 		JLabel lblAbout = new JLabel(info.Myself);
 		lblAbout.setHorizontalAlignment(SwingConstants.CENTER);
 		lblAbout.setFont(new Font("Rockwell", Font.BOLD, 25));
