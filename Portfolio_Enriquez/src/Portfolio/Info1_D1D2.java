@@ -4,7 +4,6 @@ package Portfolio;
 //Parent Class
 public class Info1_D1D2 {
 	//Will be used for the text of Jlabels 
-	
 	//Declare variables
 	 
 	//D1
