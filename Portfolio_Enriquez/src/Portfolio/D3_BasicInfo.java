@@ -141,7 +141,7 @@ public class D3_BasicInfo {
 			}	
 			
 		});
-		
+		//display inherited variable
 		JTextArea txtADescript = new JTextArea(info.descript);
 		txtADescript.setToolTipText("");
 		txtADescript.setForeground(new Color(0, 40, 40));
