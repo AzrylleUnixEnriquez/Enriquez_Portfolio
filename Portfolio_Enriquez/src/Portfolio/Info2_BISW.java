@@ -1,6 +1,6 @@
 package Portfolio;
 
-//Sub sub class of Info1_D1D2
+//Sub class of Info1_D1D2
 public class Info2_BISW extends Info1_D1D2 {
 	
 	//Basic Information
