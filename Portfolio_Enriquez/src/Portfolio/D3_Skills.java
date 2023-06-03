@@ -51,7 +51,7 @@ public class D3_Skills {
 		
 		//Instantiation of the subclass that inherited all the variables and methods of the subclasses and parent class
 		Info4_SH info = new Info4_SH();
-		
+		//Display inherited variables
 		JLabel lblAdaptability = new JLabel(info.Adaptability);
 		lblAdaptability.setHorizontalAlignment(SwingConstants.LEFT);
 		lblAdaptability.setForeground(new Color(0, 0, 0));
